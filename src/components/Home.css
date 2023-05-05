@@ -1,0 +1,53 @@
+/* .container {
+    /* background-image: url("../../public/images/tabletalk.png ");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 0cm;
+    padding-top: 20rem; */
+
+.home {
+    margin: 20px;
+}
+.home-display-img {
+    padding: 20px;
+}
+
+.p-45 {
+    padding: 45px;
+}
+
+.row {
+    width: 100%;
+    display:flex;
+    padding: 45px;
+    margin-top: 5rem;
+    
+}
+
+.col-66 {
+    width: 50%;
+   
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.btn {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 15px 30px;
+    background-color: yellow;
+    /* background-image: linear-gradient(90deg, yellow, black); */
+  }
+
+.btn-text {
+    color: black;
+}
+
+  

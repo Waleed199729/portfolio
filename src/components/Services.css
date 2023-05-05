@@ -1,0 +1,12 @@
+.services {
+    margin: 20px;
+}
+.services-row {
+    width: 100%;
+    display:flex;
+    /* padding: 45px; */
+    margin-top: 0rem;
+    
+}
+
+
