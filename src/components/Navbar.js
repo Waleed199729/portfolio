@@ -24,6 +24,15 @@ const Navbar = () => {
               <li class="nav-item">
                 <a class="nav-link" href="/contactus">Contact Us</a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/countryscreen"> Country List </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="/list"> List Keys component </a>
+              </li>
+
               {/* <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
               </li> */}

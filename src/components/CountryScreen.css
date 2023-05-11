@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+
+/* body {
+   background-color: hsl(207, 26%, 16%);
+} */
+
+
+.header {
+    width:  100%;
+    height: 70px;
+    line-height: 70px;
+    margin: 20px;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    /* background: hsl(209, 23%, 22%); */
+   
+}
+
+.header h2 {
+    /* display: flex; */
+   
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+   
+}
+
+
+/* .country_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 3rem;
+} */
+/* .country-card {
+    width: 250px;
+   
+    border-radius: 5px;
+    background: hsl(204, 90%, 49%);
+    color: white;
+} */
+
+/* .country-img img {
+    width: 100%;
+    border-radius: 5px;
+} */
+
+
+
+ .country-data {
+    padding: 20px;
+}
+.country-data h3 {
+   margin-top: 10px;
+   margin-bottom: 15px;
+
+} 
+
+.country-data h3 {
+    margin-top: 10px;    
+    opacity: 80%;
+}
+
+    .country_bottom h4{
+        color: black;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+.john1 {
+    margin: 2rem 0rem 0rem 0rem ;
+}
+.john {
+    padding: 7px 25px;
+    color: black ;
+    border-radius: 5px;
+    background: hsl(240, 20%, 99%) ;
+    border:10cap;
+    outline: none;
+    margin-bottom: 5rem;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 10rem;
+  }
+thead {
+    text-align: center;
+}
+
+td h6 {
+    text-align: center;
+}
+
