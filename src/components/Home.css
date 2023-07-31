@@ -20,8 +20,8 @@
     width: 100%;
     display:flex;
     padding: 45px;
-    margin-top: 5rem;
-    
+    margin-top: 50rem;
+   
 }
 
 .col-66 {
@@ -50,4 +50,15 @@
     color: black;
 }
 
-  
+.company__name h1 {
+    font-family:'Courier New', Courier, monospace;
+    margin: -55rem 0rem 0rem -5rem ;
+    font-weight: 700;
+    font-style: italic;
+
+    font-size: 2.4rem;
+    color: yellow;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+

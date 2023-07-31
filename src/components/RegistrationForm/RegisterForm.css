@@ -1,0 +1,124 @@
+/* * {
+    box-sizing: border-box;
+  } */
+  
+  /* body {
+    font-family: Lato;
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A4E69;
+  } */
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    min-width: 100px;
+    min-height: 400px;
+    padding: 20px 40px 40px 40px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 36px #222;
+    background-color: #fefefe;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 15rem;
+    padding: 45px;
+  }
+  
+  form > h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 0.25em;
+    color: #222;
+    letter-spacing: 2px;
+  }
+  
+  .info {
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  
+  label {
+    margin-bottom: 0.5em;
+    color: #444;
+    font-weight: lighter;
+  }
+  
+  input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  input, select {
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #d6d1d5;
+    margin-top: 5px;
+  }
+  select {
+    display: block;
+    width: 100%;
+    height: 35px;
+  }
+  input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-top: 2em;
+    margin-right: 10px;
+  }
+  
+  button {
+    min-width: 10%;
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    padding: 	0.938em;
+    border: none;
+    border-radius: 4px;
+    background-color:rgb(25, 108, 146);
+    color: White;
+    float:right;
+  }
+  button:hover {
+    background-color: rgb(25, 108, 146);
+    color: Yellow;
+  }
+  
+  .error {
+    color:#db2269;
+    font-size: 0.5em;
+    display: relative;
+  }
+  
+  .submit {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+  .educational__requirement {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .btn-smart {
+    margin: 1.3rem 0rem 0rem 0rem ;
+  }
+
+
+  .form__output {
+    padding: 0rem 5rem 5rem 5rem;
+    margin: 5rem 5rem 5rem 5rem;
+    text-align: center;
+  
+  }

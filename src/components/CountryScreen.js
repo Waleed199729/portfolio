@@ -2,7 +2,7 @@ import React from 'react'
 import './CountryScreen.css'
 import { Routes, Route } from 'react-router-dom'
 import AllCountries from './AllCountries/AllCountries'
-import CountryInfo from './CountryInfo/CountryInfo'
+
 
 const CountryScreen = () => {
     return (
@@ -14,7 +14,7 @@ const CountryScreen = () => {
             <div className='container'>
                 <Routes>
                     <Route path='/' element={< AllCountries />} />
-                    <Route path='/country/countryName' element={< CountryInfo />} />
+                
                 </Routes>
             </div>
         </>

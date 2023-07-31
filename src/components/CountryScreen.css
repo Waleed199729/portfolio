@@ -53,7 +53,7 @@
 
 
 
- .country-data {
+.country-data {
     padding: 20px;
 }
 .country-data h3 {
@@ -67,24 +67,13 @@
     opacity: 80%;
 }
 
-    .country_bottom h4{
-        color: black;
-        text-align: center;
-        margin-top: 15px;
-    }
+.country_bottom h4{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
 
-.john1 {
-    margin: 2rem 0rem 0rem 0rem ;
-}
-.john {
-    padding: 7px 25px;
-    color: black ;
-    border-radius: 5px;
-    background: hsl(240, 20%, 99%) ;
-    border:10cap;
-    outline: none;
-    margin-bottom: 5rem;
-}
+
 
 table, th, td {
     border:1px solid black;

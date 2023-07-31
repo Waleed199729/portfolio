@@ -7,9 +7,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import CountryScreen from './components/CountryScreen';
-import ListKeysComponent from './components/ListKeysComponent';
-
-
+import ListKeysComponent from './ListKeysComponent/ListKeysComponent'
+import FormHandling from './components/FormHandling/FormHandling';
+import UsersCustomHook from './CustomHook/UsersCustomHook'
+import Comp1 from './components/ContextApi/Comp1'
+import RegisterForm from './components/RegistrationForm/RegisterForm'
 
 const App = () => {
 
@@ -28,10 +30,14 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/countryscreen" element={<CountryScreen />} />
           <Route path="/list" element={<ListKeysComponent/>} />
-
+          <Route path="/form" element={<FormHandling/>} />
+          <Route path="/user" element={<UsersCustomHook />} />
+          <Route path="/comp" element={<Comp1 />} />
+        
+          <Route path="/registerform" element={<RegisterForm />} />
         </Routes>
       </BrowserRouter>
-      {/* <Footer /> */}
+      <Footer />
         </>
      
       )

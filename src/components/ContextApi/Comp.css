@@ -1,0 +1,9 @@
+.comp-right {
+    padding: 45px;
+    margin: 45px;
+}
+
+.comp-left {
+    float: right;
+    margin: -30rem 5rem 0rem 0rem; 
+}

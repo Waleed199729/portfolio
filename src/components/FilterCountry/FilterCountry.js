@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react'                    //Higher order function example
 import './FilterCountry.css'
 
 const FilterCountry = ({ onSelect }) => {
@@ -8,7 +8,7 @@ const FilterCountry = ({ onSelect }) => {
         onSelect(regionName);
     }
   return (
-    <select onChange={selectHandler}>
+    <select className='select_filter' onChange={selectHandler}>
 
         <option className='option'> 
         Filter By Region 
@@ -28,6 +28,7 @@ const FilterCountry = ({ onSelect }) => {
         <option className='option' value="Oceania">
             Oceania
         </option>
+        wecwec
     </select>
   )
 }

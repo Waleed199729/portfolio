@@ -28,10 +28,28 @@ const Navbar = () => {
               <li class="nav-item">
                 <a class="nav-link" href="/countryscreen"> Country List </a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/form"> Form </a>
+              </li>
               
               <li class="nav-item">
                 <a class="nav-link" href="/list"> List Keys component </a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/user"> User's Details </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/comp"> Context API </a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link" href="/registerform"> Registrater Form </a>
+              </li>
+             
 
               {/* <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>

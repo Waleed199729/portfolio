@@ -5,11 +5,11 @@
     margin-top: -5rem;
 }
 
-
-
-
-
-
+.row-footer {
+    width: 100%;
+    display:flex;
+    padding: 45px;
+}
 .footer-paragraph >:nth-child(2) {
     text-align: justify;
     color: black;

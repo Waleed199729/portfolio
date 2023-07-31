@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { apiURL } from "../utils/api";
 import { Container } from 'react-bootstrap';
 import FilterCountry from '../FilterCountry/FilterCountry';
-import SearchInput from '../Search/SearchInput';
+import './AllCountries.css'
+
 
 import { Link } from 'react-router-dom';
 
@@ -34,22 +35,22 @@ const AllCountries = () => {
 
 
 
-    const getCountryByName = async (countryName) => {
-        try {
-            const res = await fetch(`${apiURL}/name/${countryName}`);
+    // const getCountryByName = async (countryName) => {
+    //     try {
+    //         const res = await fetch(`${apiURL}/name/${countryName}`);
 
-            if (!res.ok) throw new Error(" Unable to find the Country / there is no country with this name ");
+    //         if (!res.ok) throw new Error(" Unable to find the Country / there is no country with this name ");
 
-            const data = await res.json();
-            setCountries(data);
+    //         const data = await res.json();
+    //         setCountries(data);
 
-            setIsLoading(false);
+    //         setIsLoading(false);
 
-        } catch (error) {
-            setIsLoading(false);
-            setError(error.message);
-        }
-    }
+    //     } catch (error) {
+    //         setIsLoading(false);
+    //         setError(error.message);
+    //     }
+    // }
 
 
     const getCountryByRegion = async (regionName) => {
@@ -79,12 +80,8 @@ const AllCountries = () => {
         <div className='all__country__wrapper'>
 
             <div className='country_top'>
-                <div className='search'>
-                    <SearchInput onSearch={getCountryByName} />
-                </div>
-
-                <div className='filter'>
-                    <FilterCountry onSelect={getCountryByRegion} />
+                <div className='filter'>          
+                    <FilterCountry onSelect={getCountryByRegion} />  {/* higher order function*/}        
                 </div>
 
             </div>
@@ -118,7 +115,7 @@ const AllCountries = () => {
 
                             countries?.map(country => (
                              
-                                    <tr>
+                                <tr>
                                     <td> <h6>{country.name.common}</h6></td>
                                     <td>  <h6> Capital: {country.capital}</h6> </td>
                                     <td><h6> Population: {country.population} </h6></td>

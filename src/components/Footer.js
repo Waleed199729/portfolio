@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer'>
       <footer className="page-footer font-small blue pt-4">
         <div className="container-fluid text-center text-md-left">
-          <div className="row">
+          <div className="row-footer">
             <div className="footer-paragraph col-md-6 mt-md-0 mt-3">
               <h5 className="text-uppercase">Footer Content</h5>
              <span><p>The company description of your business plan describes the vision and direction of the company so potential lenders 
